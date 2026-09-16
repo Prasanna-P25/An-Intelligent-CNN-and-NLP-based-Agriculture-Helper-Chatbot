@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+.venv/
+env/
+
+.env
+.env.*
+
+db.sqlite3
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+# Runtime-generated files
+ChatBotApp/static/plant/test.png
+ChatBotApp/static/record.wav
+ChatBotApp/static/record1.wav
+ChatBotApp/static/record.csv
+ChatBotApp/static/ffmpeg.exe
