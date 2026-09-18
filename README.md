@@ -139,13 +139,13 @@ On Windows, the included `runServer.bat` file can also be used to start the Djan
 ### Screenshots
 
 #### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/Homepage.png)
 
 #### Crop Disease Prediction
 ![Crop Disease Prediction](screenshots/disease-prediction.png)
 
 #### Agriculture Chatbot
-![Agriculture Chatbot](screenshots/chatbot.png)
+![Agriculture Chatbot](screenshots/Chatbot.png)
 ### Future Improvements
 
 - Improve the chatbot to handle a wider range of agriculture-related queries.
