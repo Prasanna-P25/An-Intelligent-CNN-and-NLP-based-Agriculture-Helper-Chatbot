@@ -2,7 +2,7 @@ FROM python:3.7.17-slim-bullseye
 
 RUN sed -i '/bullseye-security/d' /etc/apt/sources.list \
     && apt-get update \
-    && apt-get install -y libglib2.0-0 \
+    && apt-get install -y libglib2.0-0 libsm6
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
