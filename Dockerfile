@@ -1,4 +1,5 @@
-FROM python:3.7.17-slim-buster
+FROM python:3.7.17-slim-bullseye
+
 RUN apt-get update && apt-get install -y libglib2.0-0 && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
