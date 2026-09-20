@@ -11,7 +11,7 @@ function displayFullName() {
 	var data = ""
 	data = data + document.getElementById("t1").value+"\n"
 	data = data + "You: "+input+"\n"
-	request.open("GET", "http://127.0.0.1:8000/ChatData?mytext="+input);
+	request.open("GET", "{% url 'ChatData' %}?mytext=" + encodeURIComponent(input));
 	request.onreadystatechange = function() {
     if(this.readyState === 4 && this.status === 200) {
 	    data = data + "Chatbot: "+this.responseText+"\n"
