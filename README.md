@@ -35,3 +35,10 @@ CNN Model
 Disease Prediction
     ↓
 Remedy Information
+
+```
+## Live Demo
+
+[Try the Agriculture Helper Chatbot](https://an-intelligent-cnn-and-nlp-based.onrender.com)
+
+> The application is deployed on Render. The free instance may take some time to wake up after inactivity.
